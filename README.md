@@ -13,7 +13,7 @@ To get a local copy up and running follow these simple steps.
 - Open the terminal on your computer
 - Navigate through directories using [change directory (cd)](https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10) command to where you want to clone the repository.
 - Type the following command then press ENTER: 
-  - git clone https://github.com/MarcoOquendoC/Webpack.git
+  - git clone https://github.com/MarcoAurelioAntonio/Leaderboard.git
 - the terminal will send to you information about your download.
 - Type the following command then press ENTER: 
   - cd Webpack
@@ -32,20 +32,58 @@ To get a local copy up and running follow these simple steps.
   - **Open folder in VSC**
     - code .
 
-## Built With
-- **HTML/CSS & JS best practices:** Correct use of tags, elements, properties and syntax.
-- **GitHub flow:** Correct use of Branches for deployment and features development.
-- **Linters Check:** Local and Pull Request check for errors, bugs and stylistic errors in code.
-- **Webpack:** used as a bundle to compile JavaScript modules.
-
 ## 🌎 Live Demo:
-- [Webpack](https://marcooquendoc.github.io/Webpack/dist/)
+- [To Do List]()
+
+### Setup
+1. Download the **Zip** file or clone the repo with:
+```bash
+git clone https://github.com/MarcoAurelioAntonio/Leaderboard.git 
+```
+3. To access cloned directory run:
+```bash
+cd Leaderboard
+```
+3. Open it with the live server
+
+### Install
+> To install linters and other project's dependencies run:
+```bash
+npm install
+```
+## Run Test for Linters
+
+For tracking linter errors locally you need to follow these steps:
+
+1. For tracking linter errors in HTML files run:
+```bash 
+npx hint .
+```
+
+2. For tracking linter errors in CSS or SASS files run:
+
+```bash
+npx stylelint "\*_/_.{css,scss}"
+```
+
+3. For tracking linter errors in JavaScript files run:
+
+```bash
+npx eslint .
+```
 
 ## Authors 
-### 👤 Marco Oquendo
-- GitHub: [@MarcoOquendoC](https://github.com/MarcoOquendoC)
-- Twitter: [@marcooquendoc](https://twitter.com/marcooquendoc)
-- LinkedIn: [Marco Vinicio Oquendo](https://www.linkedin.com/in/vinicio-oquendo-4a289156/)
+👤 **Gustavo Porcilio**
+
+- GitHub: [@MarcoAurelioAntonio](https://github.com/MarcoAurelioAntonio)
+- Twitter: [@gustavoporcilio](https://twitter.com/gustavoporcilio)
+- LinkedIn: [Gustavo Porcilio](https://www.linkedin.com/in/gustavo-porcilio-4496a223a/)
+
+## 🤝 Contributing
+
+- Contributions, issues, and feature requests are welcome!
+- Feel free to check the [issues page](https://github.com/MarcoAurelioAntonio/Leaderboard
+/issues)
 
 ## Show your support
 - Give a ⭐️ if you like this project!
