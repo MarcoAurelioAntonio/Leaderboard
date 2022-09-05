@@ -1,7 +1,7 @@
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
 
-# Webpack
-- Build a simple yet powerful webpack boilerplate. To be used as a starting point in projects. Working with the webpack official guides.
+# Leaderboard
+- 
 
 ## Getting Started
 To get a local copy up and running follow these simple steps.
