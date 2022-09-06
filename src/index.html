@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <h1 class="main-title">Leaderboard</h1>
+    <section>
+      <div class="scores-main">
+        <div class="header">
+          <h2 class="score-title">Recent Scores</h2>
+          <input type="button" class="refresh" value="Refresh" />
+        </div>
+        <div class="main-container hide">
+          <div class="book-list" id="book-list"></div>
+        </div>
+      </div>
+      <div class="add-section">
+        <h3 class="form-title">Add your scores</h3>
+        <form class="form" action="null" method="post">
+          <input class="title in" type="text" placeholder="Name:" />
+          <input class="author in" type="text" placeholder="Score" />
+          <input type="button" class="addBtn" value="Add" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
