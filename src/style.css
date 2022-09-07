@@ -71,6 +71,8 @@ section {
   width: 300px;
   padding: 10px;
   border-radius: 10px;
+  box-shadow: 1px 10px 15px 1px grey;
+  border: none;
 }
 
 .in:active {
@@ -114,6 +116,7 @@ section {
   align-items: center;
   height: 25px;
   padding: 5px 10px;
+  border-radius: 0 10px;
 }
 
 .div1:nth-child(odd) {

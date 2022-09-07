@@ -8,7 +8,7 @@ const title = document.querySelector('.title');
 const author = document.querySelector('.author');
 const addButton = document.querySelector('.addBtn');
 
-function loadFromApi(topTen) {
+const loadFromApi = (topTen) => {
   const bookList = document.querySelector('.book-list');
   bookList.innerHTML = '';
   for (let i = 0; i < topTen.length; i += 1) {
@@ -27,7 +27,7 @@ function loadFromApi(topTen) {
     // Conteiner for all books
     bookList.appendChild(div1); // Book and button added to a container!
   }
-}
+};
 
 const manageData = async () => {
   const data = await api.getScores();
