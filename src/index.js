@@ -1,4 +1,4 @@
-/* import './style.css'; */
+import './style.css';
 import Method from './modules/methods.js';
 import api from './modules/api.js';
 
