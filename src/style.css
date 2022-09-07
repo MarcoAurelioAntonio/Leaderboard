@@ -46,6 +46,7 @@ section {
   border: 2px solid black;
   margin-bottom: 60px;
   box-shadow: 1px 10px 15px 1px grey;
+  border-radius: 0 30px;
 }
 
 /* Add new books */
@@ -68,7 +69,8 @@ section {
 /* inputs */
 .in {
   width: 300px;
-  padding: 5px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .in:active {
