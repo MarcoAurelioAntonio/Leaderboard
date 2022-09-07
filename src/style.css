@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  background-image: url(./assets/subtle-prism.svg);
+}
+
 .main-title {
   font-size: 80px;
   text-align: center;
@@ -42,6 +46,7 @@ section {
   border: 2px solid black;
   margin-bottom: 60px;
   box-shadow: 1px 10px 15px 1px grey;
+  border-radius: 0 30px;
 }
 
 /* Add new books */
@@ -64,7 +69,10 @@ section {
 /* inputs */
 .in {
   width: 300px;
-  padding: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 10px 15px 1px grey;
+  border: none;
 }
 
 .in:active {
@@ -108,6 +116,7 @@ section {
   align-items: center;
   height: 25px;
   padding: 5px 10px;
+  border-radius: 0 10px;
 }
 
 .div1:nth-child(odd) {
