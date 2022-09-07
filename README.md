@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple steps.
     - code .
 
 ## 🌎 Live Demo:
-- [To Do List]()
+- [To Do List](https://marcoaurelioantonio.github.io/Leaderboard/dist/)
 
 ### Setup
 1. Download the **Zip** file or clone the repo with:
