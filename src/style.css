@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  background-image: url(./assets/subtle-prism.svg);
+}
+
 .main-title {
   font-size: 80px;
   text-align: center;

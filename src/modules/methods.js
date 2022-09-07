@@ -1,15 +1,6 @@
 import Book from './constructor.js';
 
 export default class Method {
-  static addStorage(title, author) {
-    const storage = new Book(title.value, author.value);
-    const books = localStorage.getItem('data')
-      ? JSON.parse(localStorage.getItem('data'))
-      : [];
-    books.push(storage);
-    localStorage.setItem('data', JSON.stringify(books));
-  }
-
   static addBook(title, author) {
     const book = new Book(title.value, author.value);
 
